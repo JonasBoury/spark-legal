@@ -1,0 +1,109 @@
+### Service Level Agreement (SLA)
+
+Between:
+
+- Spark Collective BV, BE0805.193.139, Bergstraat 10, 8790 Waregem, Belgium ("Provider")
+- {{customer_name}}, {{customer_address}}, Registration number {{customer_registration}}, VAT {{customer_vat}} ("Customer")
+
+Effective date: {{effective_date}}
+
+Version: {{version}}
+
+---
+
+### 1. Purpose and scope
+
+This SLA sets out the service levels, support commitments, and commercial terms for Customer's use of the Spark Collective equity management platform (the "Platform"), including onboarding of existing shareholders and certificate holders, and ongoing SaaS services. Future extensions may include tokenization functionality.
+
+### 2. Services
+
+- Platform access
+    - Role-based, secure access to the equity management features enabled for Customer's environment.
+- Onboarding
+    - One-time setup of all existing shareholders and certificate holders based on data provided by Customer in the agreed template.
+- Maintenance and updates
+    - Regular security patches, minor updates, and performance improvements.
+- Optional extensions
+    - Tokenization features and other modules may be enabled under mutually agreed terms.
+
+### 3. Service availability
+
+- Target uptime: 99.5% monthly, excluding Scheduled Maintenance and Excluded Downtime.
+- Scheduled maintenance: Up to 4 hours per month, with at least 48 hours' notice, performed outside 09:00–18:00 CET where reasonably possible.
+- Excluded downtime: Force majeure, Customer-caused issues, third-party outages outside Provider's control, and emergency security maintenance.
+
+### 4. Support
+
+- Channels: Email and ticketing system.
+- Hours: Business hours 09:00–18:00 CET, Monday–Friday, excluding Belgian public holidays.
+- Response and resolution targets
+    - P1 Critical (platform unavailable or data corruption): Response 2 business hours. Work continuously during business hours until workaround or resolution.
+    - P2 High (major feature degraded, no viable workaround): Response 4 business hours. Target resolution or workaround within 2 business days.
+    - P3 Normal (functional issues with workaround): Response 1 business day. Target resolution in a subsequent maintenance release.
+    - P4 Low (cosmetic or general queries): Response 2 business days. Resolution as scheduled.
+- Escalation: If targets are not met, escalate to senior engineering and account owner.
+
+### 5. Data management and security
+
+- Data ownership: Customer retains ownership of all Customer Data.
+- Data processing: Provider acts as processor for Customer Data. A separate Data Processing Agreement (DPA) will govern GDPR and other privacy obligations.
+- Security: Industry-standard security measures including access controls, encryption in transit, and regular backups.
+- Backups and restoration: Nightly backups with a 14-day retention. Restoration on request subject to feasibility and RPO/RTO targets agreed in the DPA.
+
+### 6. Fees and payment
+
+- One-time onboarding fee: {{onboarding_fee}} EUR, invoiced upon SLA signature or kickoff, payable net 30 days.
+- SaaS service fee (Year 1): {{saas_fee}} EUR per month for the first contract year net 30 days.
+- Commercial adjustments
+    - Discounts, premiums, or revised fees may be agreed if additional customers join the Platform.
+    - Fees for extensions beyond Year 1 and for tokenization functionality will be mutually agreed in writing.
+- Taxes: Fees are exclusive of VAT and applicable taxes.
+
+### 7. Changes and roadmap
+
+- Provider may release improvements that do not materially degrade functionality without prior consent.
+- Material changes impacting scope or service levels require written agreement.
+- Tokenization remains an ultimate objective and is out of scope until separately agreed.
+
+### 8. Term and termination
+
+- Term: Initial term of 12 months from the Effective Date. Thereafter renews annually unless either party gives 60 days' written notice before renewal.
+- Termination for cause: Either party may terminate for material breach not cured within 30 days of written notice.
+- Effect of termination: Access to the Platform ceases. Provider will make Customer Data export available in a commonly used format within 30 days of termination upon request.
+
+### 9. Service credits
+
+- If monthly uptime falls below 99.5% and the shortfall is attributable to Provider, Customer may request a credit equal to 5% of the monthly-equivalent fee for each 0.5% below target, capped at 25% for that month. Credits are applied against future invoices and are Customer's sole remedy for availability issues.
+
+### 10. Customer responsibilities
+
+- Provide accurate and complete onboarding data using the agreed templates.
+- Maintain up-to-date user lists and permissions.
+- Use the Platform in accordance with documentation and applicable laws.
+
+### 11. Confidentiality and IP
+
+- Each party will keep the other's Confidential Information confidential and use it only to perform under this SLA.
+- Provider retains all IP in the Platform. No rights are granted other than the limited right to access and use the Platform as set forth here.
+
+### 12. Compliance
+
+- Each party will comply with applicable laws and regulations, including data protection laws. The DPA will detail GDPR roles and obligations.
+
+### 13. Liability
+
+- Neither party is liable for indirect, incidental, special, or consequential damages.
+- Aggregate liability of each party is limited to fees paid or payable by Customer in the 12 months preceding the claim, except for wilful misconduct, fraud, death or personal injury, or amounts that cannot be limited under applicable law.
+
+### 14. Governing law and venue
+
+- Governing law: Laws of Belgium.
+- Venue: Courts of West Flanders, Belgium, unless otherwise mutually agreed.
+
+### 15. Notices
+
+- Notices will be in writing and delivered by email with confirmation or by registered post to the addresses above or as updated in writing by the parties.
+
+### 16. Entire agreement and order of precedence
+
+This SLA, together with the DPA and any mutually signed order forms or statements of work, constitutes the entire agreement regarding the subject matter. In case of conflict, the order form prevails, then this SLA, then the DPA, unless the DPA must prevail for legal compliance.
